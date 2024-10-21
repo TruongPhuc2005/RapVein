@@ -48,5 +48,16 @@ window.artists = [
       {url: "https://www.facebook.com/Drake", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/champagnepapi/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
+  },
+  {
+    artistId: "AID-5555",
+    name: "Travis Scott",
+    image: "https://i.guim.co.uk/img/media/2965737a8d6966d949a9c7bfc255af426b5a79ac/443_69_2406_1444/master/2406.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=20cf211e4ea594a8b92892e7a6cdc2ec",
+    urls: [
+      {url: "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/@TravisScottXX", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/travisscottlaflame", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/travisscott/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
   }
 ];
