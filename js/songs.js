@@ -609,5 +609,225 @@ window.songs = [
     duration: 184,
     url: "https://open.spotify.com/track/5v2ePUTZiv1mPDCD1nSbfF?si=26a3033f756b46d6",
     explicit: false
+  },
+  {
+    songId: "SID-401",
+    artistId: "AID-4444",
+    title: "U My Everything",
+    album: "In Sexyy We Trust",
+    year: "2024",
+    duration: 225,
+    url: "https://open.spotify.com/track/1TgStpMGTflN84asKJ8VU3?si=56d34bdd05034fa0",
+    explicit: false
+  },
+  {
+    songId: "SID-402",
+    artistId: "AID-4444",
+    title: "One Dance",
+    album: "Views",
+    year: "2016",
+    duration: 173,
+    url: "https://open.spotify.com/track/1zi7xx7UVEFkmKfv06H8x0?si=a86d1e207c57460c",
+    explicit: false
+  },
+  {
+    songId: "SID-403",
+    artistId: "AID-4444",
+    title: "God's Plan",
+    album: "Scorpion",
+    year: "2018",
+    duration: 198,
+    url: "https://open.spotify.com/track/6DCZcSspjsKoFjzjrWoCdn?si=173e240ecea84e15",
+    explicit: false
+  },
+  {
+    songId: "SID-404",
+    artistId: "AID-4444",
+    title: "Rich Baby Daddy",
+    album: "For All the Dogs",
+    year: "2023",
+    duration: 319,
+    url: "https://open.spotify.com/track/1yeB8MUNeLo9Ek1UEpsyz6?si=4883f21f2d344f89",
+    explicit: false
+  },
+  {
+    songId: "SID-405",
+    artistId: "AID-4444",
+    title: "Family Matters",
+    album: "Family Matters",
+    year: "2024",
+    duration: 476,
+    url: "https://open.spotify.com/track/1wFFFzJ5EsKbBWZriAcubN?si=8f775ae8322b4635",
+    explicit: false
+  },
+  {
+    songId: "SID-406",
+    artistId: "AID-4444",
+    title: "Laugh Now Cry Later",
+    album: "Laugh Now Cry Later",
+    year: "2020",
+    duration: 261,
+    url: "https://open.spotify.com/track/2SAqBLGA283SUiwJ3xOUVI?si=24cf38734b9d4336",
+    explicit: false
+  },
+  {
+    songId: "SID-407",
+    artistId: "AID-4444",
+    title: "Passionfruit",
+    album: "More Life",
+    year: "2017",
+    duration: 298,
+    url: "https://open.spotify.com/track/5mCPDVBb16L4XQwDdbRUpz?si=a5d50e4de364490c",
+    explicit: false
+  },
+  {
+    songId: "SID-408",
+    artistId: "AID-4444",
+    title: "IDGAF",
+    album: "For All the Dogs",
+    year: "2023",
+    duration: 260,
+    url: "https://open.spotify.com/track/2YSzYUF3jWqb9YP9VXmpjE?si=8aa9a27c0bbb4f77",
+    explicit: false
+  },
+  {
+    songId: "SID-409",
+    artistId: "AID-4444",
+    title: "Hotline Bling",
+    album: "Views",
+    year: "2016",
+    duration: 267,
+    url: "https://open.spotify.com/track/0wwPcA6wtMf6HUMpIRdeP7?si=0bcd6a4b12c543ab",
+    explicit: false
+  },
+  {
+    songId: "SID-409",
+    artistId: "AID-4444",
+    title: "Yebba’s Heartbreak",
+    album: "Certified Lover Boy",
+    year: "2021",
+    duration: 133,
+    url: "https://open.spotify.com/track/1PDP7mLiAMwhfmgIwzhOm2?si=f145a4d1dd9347af",
+    explicit: false
+  },
+  {
+    songId: "SID-410",
+    artistId: "AID-4444",
+    title: "Chicago Freestyle",
+    album: "Dark Lane Demo Tapes",
+    year: "2020",
+    duration: 220,
+    url: "https://open.spotify.com/track/4wVOKKEHUJxHCFFNUWDn0B?si=5b06085031234c2c",
+    explicit: false
+  },
+  {
+    songId: "SID-411",
+    artistId: "AID-4444",
+    title: "Toosie Slide",
+    album: "Dark Lane Demo Tapes",
+    year: "2020",
+    duration: 247,
+    url: "https://open.spotify.com/track/127QTOFJsJQp5LbJbu3A1y?si=fa218dbe6abd4785",
+    explicit: false
+  },
+  {
+    songId: "SID-412",
+    artistId: "AID-4444",
+    title: "In My Feelings",
+    album: "Scorpion",
+    year: "2018",
+    duration: 217,
+    url: "https://open.spotify.com/track/2G7V7zsVDxg1yRsu7Ew9RJ?si=2c032ef3b64f46cb",
+    explicit: true
+  },
+  {
+    songId: "SID-413",
+    artistId: "AID-4444",
+    title: "Knife Talk",
+    album: "Certified Lover Boy",
+    year: "2021",
+    duration: 242,
+    url: "https://open.spotify.com/track/2BcMwX1MPV6ZHP4tUT9uq6?si=bb97e3de4c51428c",
+    explicit: false
+  },
+  {
+    songId: "SID-414",
+    artistId: "AID-4444",
+    title: "Push Ups",
+    album: "Push Ups",
+    year: "2024",
+    duration: 232,
+    url: "https://open.spotify.com/track/3eh51r6rFWAlGQRlHx9QnQ?si=54dc473cf44144f5",
+    explicit: false
+  },
+  {
+    songId: "SID-415",
+    artistId: "AID-4444",
+    title: "First Person Shooter",
+    album: "For All the Dogs",
+    year: "2023",
+    duration: 247,
+    url: "https://open.spotify.com/track/7aqfrAY2p9BUSiupwk3svU?si=08c22252952a4879",
+    explicit: false
+  },
+  {
+    songId: "SID-416",
+    artistId: "AID-4444",
+    title: "No Guidance",
+    album: "Indigo",
+    year: "2019",
+    duration: 260,
+    url: "https://open.spotify.com/track/6XHVuErjQ4XNm6nDPVCxVX?si=0d3c149e26114b90",
+    explicit: false
+  },
+  {
+    songId: "SID-417",
+    artistId: "AID-4444",
+    title: "Rich Flex",
+    album: "Her Loss",
+    year: "2022",
+    duration: 239,
+    url: "https://open.spotify.com/track/1bDbXMyjaUIooNwFE9wn0N?si=7ef64a05e2214bf0",
+    explicit: true
+  },
+  {
+    songId: "SID-418",
+    artistId: "AID-4444",
+    title: "Jimmy Cooks",
+    album: "Honestly, Nevermind",
+    year: "2022",
+    duration: 219,
+    url: "https://open.spotify.com/track/3F5CgOj3wFlRv51JsHbxhe?si=de1164123c9a4fd5",
+    explicit: false
+  },
+  {
+    songId: "SID-419",
+    artistId: "AID-4444",
+    title: "Headlines",
+    album: "Take Care",
+    year: "2015",
+    duration: 235,
+    url: "https://open.spotify.com/track/6LxSe8YmdPxy095Ux6znaQ?si=0a566b12249a4c9d",
+    explicit: false
+  },
+  {
+    songId: "SID-420",
+    artistId: "AID-4444",
+    title: "Get It Together",
+    album: "More Life",
+    year: "2017",
+    duration: 250,
+    url: "https://open.spotify.com/track/7y6c07pgjZvtHI9kuMVqk1?si=45188c4a24f842d9",
+    explicit: false
+  },
+  {
+    songId: "SID-421",
+    artistId: "AID-4444",
+    title: "Trust Issues",
+    album: "Care Package",
+    year: "2019",
+    duration: 281,
+    url: "https://open.spotify.com/track/4Wjhj0WjkyECccfHVIgaTq?si=05a1101d72bf412c",
+    explicit: false
   }
 ];
