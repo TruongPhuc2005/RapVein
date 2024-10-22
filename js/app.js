@@ -1,17 +1,4 @@
-/**
- * WEB222 – Assignment 04
- *
- * I declare that this assignment is my own work in accordance with
- * Seneca Academic Policy. No part of this assignment has been
- * copied manually or electronically from any other source
- * (including web sites) or distributed to other students.
- *
- * Please update the following with your information:
- *
- *      Name:       Duong Truong Phuc Nguyen
- *      Student ID: 276712230
- *      Date:       NOV-01-2024
- */
+
 
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
@@ -20,22 +7,35 @@ const { artists, songs } = window;
 // For debugging, display all of our data in the console. You can remove this later.
 console.log({ artists, songs }, "App Data");
 
+// Pagination variables
+let currentArtistIndex = 0;  // Start from the first artist
+const artistsPerPage = 8;  // Display 8 artists at a time
+
 // event handler to run when the page is loaded
 document.addEventListener('DOMContentLoaded', function() {
     console.log("Loading...Wait a minute!"); // log the loading when the page is loading
 
-    artistButton();
+    displayArtists();  // Display initial set of artists
     if (window.artists.length > 0) {
         displaySongs(window.artists[0].artistId);
     }
+
+    // Add the event listener for the next button
+    const nextButton = document.querySelector('#nextButton');
+    if (nextButton) {
+        nextButton.addEventListener('click', handleNextClick);
+    }
 });
 
-function artistButton() {
+function displayArtists() {
     const menu = document.querySelector('#menu'); // find element of menu in DOM
+    menu.innerHTML = '';  // Clear existing artists
 
     console.log("Generating the artist buttons...Wait a minute!"); // log the process of generating button
 
-    window.artists.forEach(artist => {
+    const artistsToShow = window.artists.slice(currentArtistIndex, currentArtistIndex + artistsPerPage);
+
+    artistsToShow.forEach(artist => {
         const button = document.createElement('button'); // create new DOM elements
         button.classList.add('artist-button'); // add the artist button for BONUS
 
@@ -54,22 +54,38 @@ function artistButton() {
 
         button.appendChild(artistImage);
 
-        button.addEventListener('click', () => 
-            {console.log({clickArtist: artist}); // log the artist clicked to the function
-        displaySongs(artist.artistId)}); 
+        button.addEventListener('click', () => {
+            console.log({ clickArtist: artist }); // log the artist clicked to the function
+            displaySongs(artist.artistId);
+        });
 
         menu.appendChild(button); // append button to menu
     });
 
-    console.log({totalOfArtists: window.artists.length}); // log the total of artist to the function
+    console.log({ totalOfArtists: window.artists.length }); // log the total of artist to the function
+}
+
+function handleNextClick() {
+    console.log("Next button clicked");
+
+    // Move to the next set of artists
+    currentArtistIndex += artistsPerPage;
+
+    // If the index exceeds the available artists, wrap around to the start
+    if (currentArtistIndex >= window.artists.length) {
+        currentArtistIndex = 0;  // Reset back to the first artist
+    }
+
+    // Display the new set of artists
+    displayArtists();
 }
 
 function displaySongs(artistId) {
-    console.log({artistId}); // log the ID artist to the function
+    console.log({ artistId }); // log the ID artist to the function
 
     // find algorithm
     const artist = window.artists.find(a => a.artistId === artistId);
-    console.log({selectArtist: artist}); // log the artist to the function
+    console.log({ selectArtist: artist }); // log the artist to the function
 
     const selectArtist = document.querySelector('#select-artist'); // find element of selected artist in DOM
     selectArtist.textContent = artist.name;
@@ -77,7 +93,7 @@ function displaySongs(artistId) {
     const socialLink = document.querySelector('#socialLink'); // find element of social link in DOM
     socialLink.innerHTML = '';
 
-    console.log({socialLink: artist.urls}); // log the URL to the function
+    console.log({ socialLink: artist.urls }); // log the URL to the function
 
     artist.urls.forEach(link => {
         const anchorElement = document.createElement('a');  // create new DOM elements
@@ -101,10 +117,10 @@ function displaySongs(artistId) {
 
     const artistSong = window.songs.filter(song => song.artistId === artistId && !song.explicit);
 
-    console.log({filterSong: artistSong}); // log the filter of list song to the function
+    console.log({ filterSong: artistSong }); // log the filter of list song to the function
 
     artistSong.forEach(song => {
-        console.log({dataSong: song}); // log the data song to the function
+        console.log({ dataSong: song }); // log the data song to the function
         const row = document.createElement('tr'); // create new DOM elements
         row.addEventListener('click', () => { 
             console.log({ song });
