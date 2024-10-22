@@ -1,5 +1,3 @@
-
-
 // All of our data is available on the global `window` object.
 // Create local variables to work with it in this file.
 const { artists, songs } = window;
@@ -25,6 +23,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (nextButton) {
         nextButton.addEventListener('click', handleNextClick);
     }
+
+    // Add the event listener for the back button
+    const backButton = document.querySelector('#backButton');
+    if (backButton) {
+        backButton.addEventListener('click', handleBackClick);
+    }
 });
 
 function displayArtists() {
@@ -40,7 +44,7 @@ function displayArtists() {
         button.classList.add('artist-button'); // add the artist button for BONUS
 
         const artistImage = document.createElement('img');
-        artistImage.src = artist.image // use the URL image
+        artistImage.src = artist.image; // use the URL image
         artistImage.alt = artist.name; // add alternative text
         artistImage.classList.add('artist=image');
 
@@ -74,6 +78,24 @@ function handleNextClick() {
     // If the index exceeds the available artists, wrap around to the start
     if (currentArtistIndex >= window.artists.length) {
         currentArtistIndex = 0;  // Reset back to the first artist
+    }
+
+    // Display the new set of artists
+    displayArtists();
+}
+
+function handleBackClick() {
+    console.log("Back button clicked");
+
+    // Move to the previous set of artists
+    currentArtistIndex -= artistsPerPage;
+
+    // If the index goes below 0, wrap around to the last set of artists
+    if (currentArtistIndex < 0) {
+        currentArtistIndex = window.artists.length - artistsPerPage;  // Go to the last set
+        if (currentArtistIndex < 0) {
+            currentArtistIndex = 0;  // Ensure it doesn't go below zero if there are less than artistsPerPage artists
+        }
     }
 
     // Display the new set of artists
