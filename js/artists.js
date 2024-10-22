@@ -70,5 +70,28 @@ window.artists = [
       {url: "https://www.facebook.com/kendricklamar", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/kendricklamar/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
+  },
+  {
+    artistId: "AID-7777",
+    name: "Lil Wayne",
+    image: "https://www.rollingstone.com/wp-content/uploads/2023/06/LWonline.jpg",
+    urls: [
+      {url: "https://open.spotify.com/artist/4PJQrfIGBFME6P1cCA1bf6", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UCO9zJy7HWrIS3ojB4Lr7Yqw", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/LilWayne", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/liltunechi/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
   }
+  {
+    artistId: "AID-8888",
+    name: "Tyga",
+    image: "https://taogroup.com/wp-content/uploads/2022/01/240000_Tyga.jpg",
+    urls: [
+      {url: "https://open.spotify.com/artist/5LHRHt1k9lMyONurDHEdrp", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UC-Eh1lR_tWVtv9AvxLybMtQ", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/tyga", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/tyga/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  }
+  
 ];
