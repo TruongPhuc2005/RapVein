@@ -839,20 +839,10 @@ window.songs = [
     duration: 312,
     url: "https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h?si=2d1d7aee7def4de3",
     explicit: false
-  }
+  },
   {
     songId: "SID-601",
     artistId: "AID-6666",
-    title: "Not Like Us",
-    album: "Not Like Us",
-    year: "2024",
-    duration: 274,
-    url: "https://open.spotify.com/track/6AI3ezQ4o3HUoP6Dhudph3?si=215dd3169e624927",
-    explicit: false
-  },
-  {
-    songId: "SID-701",
-    artistId: "AID-7777",
     title: "Not Like Us",
     album: "Not Like Us",
     year: "2024",
