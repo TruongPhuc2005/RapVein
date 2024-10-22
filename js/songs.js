@@ -829,5 +829,35 @@ window.songs = [
     duration: 281,
     url: "https://open.spotify.com/track/4Wjhj0WjkyECccfHVIgaTq?si=05a1101d72bf412c",
     explicit: false
+  },
+  {
+    songId: "SID-501",
+    artistId: "AID-5555",
+    title: "SICKO MODE",
+    album: "Astroworld",
+    year: "2018",
+    duration: 312,
+    url: "https://open.spotify.com/track/2xLMifQCjDGFmkHkpNLD9h?si=2d1d7aee7def4de3",
+    explicit: false
+  }
+  {
+    songId: "SID-601",
+    artistId: "AID-6666",
+    title: "Not Like Us",
+    album: "Not Like Us",
+    year: "2024",
+    duration: 274,
+    url: "https://open.spotify.com/track/6AI3ezQ4o3HUoP6Dhudph3?si=215dd3169e624927",
+    explicit: false
+  },
+  {
+    songId: "SID-701",
+    artistId: "AID-7777",
+    title: "Not Like Us",
+    album: "Not Like Us",
+    year: "2024",
+    duration: 274,
+    url: "https://open.spotify.com/track/6AI3ezQ4o3HUoP6Dhudph3?si=215dd3169e624927",
+    explicit: false
   }
 ];
