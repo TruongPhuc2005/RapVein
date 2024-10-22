@@ -453,3 +453,24 @@ input {
 img {
 	max-width: 100%;
 }
+#artist-container {
+    display: flex;
+    align-items: center; /* Align the items vertically */
+    justify-content: space-between; /* Distribute space between artist images and the button */
+    margin-bottom: 20px; /* Add spacing between artists and songs table */
+}
+
+#nextButton {
+    height: 50px;
+    width: 100px;
+    font-size: 16px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#nextButton:hover {
+    background-color: #777;
+}
