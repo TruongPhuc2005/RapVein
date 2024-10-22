@@ -103,5 +103,82 @@ window.artists = [
       {url: "https://www.facebook.com/lilpumpofficial", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/lilpump/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
+  },
+  {
+    artistId: "AID-11111",
+    name: "50 Cent",
+    image: "https://www.rollingstone.com/wp-content/uploads/2023/05/50-cent-press-RS-1800.jpg?crop=0px%2C0px%2C1800px%2C1014px&resize=1600%2C900",
+    urls: [
+      {url: "https://open.spotify.com/artist/3q7HBObVc0L8jNeTe5Gofh", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UC8zJedg1f4sKnyuHWeS6vyw", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/50cent", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/50cent/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-22222",
+    name: "Jay-Z",
+    image: "https://thisis-images.spotifycdn.com/37i9dQZF1DZ06evO1XGbvi-default.jpg",
+    urls: [
+      {url: "https://open.spotify.com/artist/7AnIWfSk4Xhc0TTATZH87L", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UCN-sc1xJr-QQNj_uNIM9wTA", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/JayZ", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/jayzz_official/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-33333",
+    name: "J. Cole",
+    image: "https://hips.hearstapps.com/hmg-prod/images/j_cole_photo_by_isaac_brekken_wireimage_getty_503069628.jpg?crop=1xw:1.0xh;center,top&resize=640:*",
+    urls: [
+      {url: "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UCnc6db-y3IU7CkT_yeVXdVg", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/JColeMusic", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/realcoleworld/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-44444",
+    name: "Lil Baby",
+    image: "https://www.billboard.com/wp-content/uploads/2020/06/03-Lil-Baby-Kenneth-Cappello-2020-billboard-1548-1593440471.jpg",
+    urls: [
+      {url: "https://open.spotify.com/artist/5f7VJjfbwm532GiveGC0ZK", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UCVS88tG_NYgxF6Udnx2815Q", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/4pflilbaby", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/lilbaby/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-55555",
+    name: "DaBaby",
+    image: "https://yt3.googleusercontent.com/_KpvkK8sZyVtCyvg2B8soFFfrEF5bmQPG7TOeGB4APaneShcf4OlHNP3hV9-BpD8S6o5fTS0jQ=s900-c-k-c0x00ffffff-no-rj",
+    urls: [
+      {url: "https://open.spotify.com/artist/4r63FhuTkUYltbVAg5TQnk", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UC2CCXzC56k0b8L49R_iW-Yw", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/babyjesus704", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/dababy/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-66666",
+    name: "Roddy Ricch",
+    image: "https://i1.sndcdn.com/artworks-QEVOnOm6VJ04F5Rp-1fEbAA-t500x500.jpg",
+    urls: [
+      {url: "https://open.spotify.com/artist/757aE44tKEUQEqRuT6GnEB", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UChQdA1rid5kKZh6oIc6DLNg", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/RoddyRicch", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/roddyricch/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
+  },
+  {
+    artistId: "AID-77777",
+    name: "Pop Smoke",
+    image: "https://yt3.googleusercontent.com/ytc/AIdro_lKJKVlE-XcAgWMWbOmYWbbUIcNDSsKTgv_beOpto71EYw=s900-c-k-c0x00ffffff-no-rj",
+    urls: [
+      {url: "https://open.spotify.com/artist/0eDvMgVFoNV3TpwtrVCoTj", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UCSaPKJpNd-Mkm6hhelIYSlQ", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/RealPopSmoke", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/realpopsmoke/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
   }
 ];
