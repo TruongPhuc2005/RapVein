@@ -460,7 +460,13 @@ img {
     margin-bottom: 20px; /* Add spacing between artists and songs table */
 }
 
-#nextButton {
+#navigation-buttons {
+    margin-top: 20px; /* Add some space above the buttons */
+    display: flex; /* Align buttons in a row */
+    gap: 10px; /* Add space between the buttons */
+}
+
+#backButton, #nextButton {
     height: 50px;
     width: 100px;
     font-size: 16px;
@@ -471,6 +477,6 @@ img {
     border-radius: 5px;
 }
 
-#nextButton:hover {
+#backButton:hover, #nextButton:hover {
     background-color: #777;
 }
