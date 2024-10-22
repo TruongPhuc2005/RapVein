@@ -92,6 +92,16 @@ window.artists = [
       {url: "https://www.facebook.com/tyga", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/tyga/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
+  },
+  {
+    artistId: "AID-9999",
+    name: "Lil Pump",
+    image: "https://i0.wp.com/secretsolstice.is/wp-content/uploads/2019/11/LIL-PUMP.png?fit=1200%2C800&ssl=1",
+    urls: [
+      {url: "https://open.spotify.com/artist/3wyVrVrFCkukjdVIdirGVY", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UC6pjHMC4QXMi4llCCjtDXWg", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/lilpumpofficial", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/lilpump/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
   }
-  
 ];
