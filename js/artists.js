@@ -59,5 +59,16 @@ window.artists = [
       {url: "https://www.facebook.com/travisscottlaflame", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/travisscott/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
+  },
+  {
+    artistId: "AID-6666",
+    name: "Kendrick Lamar",
+    image: "https://variety.com/wp-content/uploads/2017/11/kendrick-lamar-variety-hitmakers.jpg?w=1000&h=562&crop=1",
+    urls: [
+      {url: "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg", name: "Spotify", logo: "https://m.media-amazon.com/images/I/51rttY7a+9L.png"},
+      {url: "https://www.youtube.com/channel/UC3lBXcrKFnFAFkfVk5WuKcQ", name: "YouTube", logo: "https://static.vecteezy.com/system/resources/thumbnails/023/986/480/small_2x/youtube-logo-youtube-logo-transparent-youtube-icon-transparent-free-free-png.png"},
+      {url: "https://www.facebook.com/kendricklamar", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
+      {url: "https://www.instagram.com/kendricklamar/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
+    ]
   }
 ];
