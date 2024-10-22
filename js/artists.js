@@ -81,7 +81,7 @@ window.artists = [
       {url: "https://www.facebook.com/LilWayne", name: "Facebook", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"},
       {url: "https://www.instagram.com/liltunechi/", name: "Instagram", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png"}
     ]
-  }
+  },
   {
     artistId: "AID-8888",
     name: "Tyga",
