@@ -841,6 +841,196 @@ window.songs = [
     explicit: false
   },
   {
+    songId: "SID-502",
+    artistId: "AID-5555",
+    title: "FE!N",
+    album: "Utopia",
+    year: "2023",
+    duration: 191,
+    url: "https://open.spotify.com/track/42VsgItocQwOQC3XWZ8JNA?si=65d0face2a584f14",
+    explicit: false
+  }, 
+  {
+    songId: "SID-503",
+    artistId: "AID-5555",
+    title: "goosebumps",
+    album: "Birds in the Trap Sing McKnight",
+    year: "2016",
+    duration: 243,
+    url: "https://open.spotify.com/track/6gBFPUFcJLzWGx4lenP6h2?si=a828ce795ca74cf8",
+    explicit: false
+  },
+  {
+    songId: "SID-504",
+    artistId: "AID-5555",
+    title: "Type Shit",
+    album: "We Don't Trust You",
+    year: "2024",
+    duration: 228,
+    url: "https://open.spotify.com/track/28drn6tQo95MRvO0jQEo5C?si=f8bd0ee05c68405b",
+    explicit: false
+  },
+  {
+    songId: "SID-505",
+    artistId: "AID-5555",
+    title: "90210",
+    album: "Rodeo",
+    year: "2015",
+    duration: 339,
+    url: "https://open.spotify.com/track/51EC3I1nQXpec4gDk0mQyP?si=beaa2f62b6b14e5c",
+    explicit: false
+  },
+  {
+      songId: "SID-506",
+      artistId: "AID-5555",
+      title: "TELEKINESIS",
+      album: "Utopia",
+      year: "2023",
+      duration: 353,
+      url: "https://open.spotify.com/track/1i9lZvlaDdWDPyXEE95aiq?si=efbe5bb5af4a4905",
+      explicit: false
+  },
+  {
+    songId: "SID-507",
+    artistId: "AID-5555",
+    title: "MY EYES",
+    album: "Utopia",
+    year: "2023",
+    duration: 251,
+    url: "https://open.spotify.com/track/4kjI1gwQZRKNDkw1nI475M?si=6ac8cde8ac144c05",
+    explicit: false
+  },
+  {
+    songId: "SID-508",
+    artistId: "AID-5555",
+    title: "THE SCOTTS",
+    album: "THE SCOTTS",
+    year: "2020",
+    duration: 165,
+    url: "https://open.spotify.com/track/39Yp9wwQiSRIDOvrVg7mbk?si=e59697c190b14242",
+    explicit: false
+  },
+  {
+    songId: "SID-509",
+    artistId: "AID-5555",
+    title: "Highest in the Room",
+    album: "気になる洋楽３ 〜 TV CM, DRAMA & MOVIE HITS COLLECTION",
+    year: "2020",
+    duration: 175,
+    url: "https://open.spotify.com/track/3eekarcy7kvN4yt5ZFzltW?si=855d48bcfb794c84",
+    explicit: false
+  },
+  {
+    songId: "SID-510",
+    artistId: "AID-5555",
+    title: "Trance",
+    album: "Heroes & Villains",
+    year: "2022",
+    duration: 194,
+    url: "https://open.spotify.com/track/5wG3HvLhF6Y5KTGlK0IW3J?si=e4101ad77ace49ba",
+    explicit: false
+  },
+  {
+    songId: "SID-511",
+    artistId: "AID-5555",
+    title: "sdp interlude",
+    album: "Birds in the Trap Sing McKnight",
+    year: "2016",
+    duration: 191,
+    url: "https://open.spotify.com/track/4gh0ZnHzaTMT1sDga7Ek0N?si=e23120827ef94eea",
+    explicit: false
+  },
+  {
+    songId: "SID-512",
+    artistId: "AID-5555",
+    title: "BUTTERFLY EFFECT",
+    album: "Astroworld",
+    year: "2018",
+    duration: 190,
+    url: "https://open.spotify.com/track/2cYqizR4lgvp4Qu6IQ3qGN?si=864b8b988ad84f4d",
+    explicit: false
+  },
+  {
+    songId: "SID-513",
+    artistId: "AID-5555",
+    title: "OUT WEST",
+    album: "JackBoys",
+    year: "2019",
+    duration: 157,
+    url: "https://open.spotify.com/track/6gi6y1xwmVszDWkUqab1qw?si=eb58eb1b1a334c42",
+    explicit: false
+  },
+  {
+    songId: "SID-514",
+    artistId: "AID-5555",
+    title: "I KNOW ?",
+    album: "Utopia",
+    year: "2023",
+    duration: 211,
+    url: "https://open.spotify.com/track/6wsqVwoiVH2kde4k4KKAFU?si=508598c5ab24457d",
+    explicit: false
+  },
+  {
+    songId: "SID-515",
+    artistId: "AID-5555",
+    title: "Love Galore",
+    album: "Ctrl",
+    year: "2017",
+    duration: 275,
+    url: "https://open.spotify.com/track/0q75NwOoFiARAVp4EXU4Bs?si=a46f67d5e4ef41bb",
+    explicit: false
+  },
+  {
+    songId: "SID-516",
+    artistId: "AID-5555",
+    title: "TIL FURTHER NOTICE",
+    album: "Utopia",
+    year: "2023",
+    duration: 314,
+    url: "https://open.spotify.com/track/76gcXhY3Zv6wW0BTe9nHJo?si=74e0c341e3e94a9b",
+    explicit: false
+  },
+  {
+    songId: "SID-517",
+    artistId: "AID-5555",
+    title: "CAN'T SAY",
+    album: "Astroworld",
+    year: "2018",
+    duration: 198,
+    url: "https://open.spotify.com/track/27a1mYSG5tYg7dmEjWBcmL?si=b6c884173d8146ef",
+    explicit: false
+  },
+  {
+    songId: "SID-518",
+    artistId: "AID-5555",
+    title: "Nightcrawler",
+    album: "Rodeo",
+    year: "2015",
+    duration: 321,
+    url: "https://open.spotify.com/track/3xby7fOyqmeON8jsnom0AT?si=33ab0c94ea7c4241",
+    explicit: false
+  },
+  {
+    songId: "SID-519",
+    artistId: "AID-5555",
+    title: "TOPIA TWINS",
+    album: "Utopia",
+    year: "2023",
+    duration: 223,
+    url: "https://open.spotify.com/track/0lodMO0qK83vfPiiD7FMEt?si=aeddb4d755224faf",
+    explicit: false
+  },
+  {
+    songId: "SID-520",
+    artistId: "AID-5555",
+    title: "Parking Lot",
+    album: "Faith of a Mustard Seed",
+    year: "2024",
+    duration: 172,
+    url: "https://open.spotify.com/track/4IFd7EVCyJsUHesBMXI8ju?si=f3841a2802614bc1",
+    explicit: false
+  },
+  {
     songId: "SID-601",
     artistId: "AID-6666",
     title: "Not Like Us",
@@ -849,5 +1039,105 @@ window.songs = [
     duration: 274,
     url: "https://open.spotify.com/track/6AI3ezQ4o3HUoP6Dhudph3?si=215dd3169e624927",
     explicit: false
+  },
+  {
+    songId: "SID-602",
+    artistId: "AID-6666",
+    title: "Money Trees",
+    album: "Good Kid, M.A.A.D City",
+    year: "2012",
+    duration: 386,
+    url: "https://open.spotify.com/track/2HbKqm4o0w5wEeEFXm2sD4?si=3c250cb1f176492f",
+    explicit: false
+  },
+  {
+    songId: "SID-603",
+    artistId: "AID-6666",
+    title: "Swimming Pools (Drank)",
+    album: "Good Kid, M.A.A.D City",
+    year: "2012",
+    duration: 313,
+    url: "https://open.spotify.com/track/5ujh1I7NZH5agbwf7Hp8Hc?si=e73a9dbf13614ded",
+    explicit: false
+  },
+  {
+    songId: "SID-604",
+    artistId: "AID-6666",
+    title: "Bad Blood",
+    album: "1989",
+    year: "2014",
+    duration: 211,
+    url: "https://open.spotify.com/track/0TvQLMecTE8utzoNmvXRbK?si=2633a98910674b70",
+    explicit: false
+  },
+  {
+    songId: "SID-605",
+    artistId: "AID-6666",
+    title: "HUMBLE.",
+    album: "DAMN.",
+    year: "2017",
+    duration: 177,
+    url: "https://open.spotify.com/track/7KXjTSCq5nL1LoYtL7XAwS?si=102cbbdaf5444a34",
+    explicit: false
+  },
+  {
+    songId: "SID-606",
+    artistId: "AID-6666",
+    title: "Euphoria",
+    album: "euphoria",
+    year: "2024",
+    duration: 383,
+    url: "https://open.spotify.com/track/77DRzu7ERs0TX3roZcre7Q?si=21b754335077434b",
+    explicit: false
+  },
+  {
+    songId: "SID-607",
+    artistId: "AID-6666",
+    title: "All the Stars",
+    album: "Black Panther",
+    year: "2018",
+    duration: 272,
+    url: "https://open.spotify.com/track/3GCdLUSnKSMJhs4Tj6CV3s?si=58f4341f5c344477",
+    explicit: false
+  },
+  {
+    songId: "SID-608",
+    artistId: "AID-6666",
+    title: "DNA.",
+    album: "DAMN.",
+    year: "2017",
+    duration: 185,
+    url: "https://open.spotify.com/track/6HZILIRieu8S0iqY8kIKhj?si=aacf52f0005147c1",
+    explicit: false
+  },
+  {
+    songId: "SID-609",
+    artistId: "AID-6666",
+    title: "Pray for Me",
+    album: "Black Panther",
+    year: "2018",
+    duration: 211,
+    url: "https://open.spotify.com/track/77UjLW8j5UAGAGVGhR5oUK?si=79cb62914c704d5d",
+    explicit: false   
+  },
+  {
+    songId: "SID-610",
+    artistId: "AID-6666",
+    title: "PRIDE.",
+    album: "DAMN.",
+    year: "2017",
+    duration: 275,
+    url: "https://open.spotify.com/track/6IZvVAP7VPPnsGX6bvgkqg?si=7c1188b9edb44d8a",
+    explicit: false   
+  },
+  {
+    songId: "SID-611",
+    artistId: "AID-6666",
+    title: "United In Grief",
+    album: "Mr. Morale & the Big Steppers",
+    year: "2022",
+    duration: 255,
+    url: "https://open.spotify.com/track/5Gt9bxniM1SxN61yRzRhXL?si=b79f3cb9dc274f3b",
+    explicit: false   
   }
 ];
