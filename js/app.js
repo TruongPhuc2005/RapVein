@@ -6,8 +6,15 @@ const { artists, songs } = window;
 console.log({ artists, songs }, "App Data");
 
 // Pagination variables
-let currentArtistIndex = 0;  // Start from the first artist
-const artistsPerPage = 8;  // Display 8 artists at a time
+let currentArtistIndex = 0;  
+const artistsPerPage = 8; 
+
+let sortState = {
+    song: 'asc', 
+    album: 'asc',
+    year: 'asc',
+    duration: 'asc'
+};
 
 // event handler to run when the page is loaded
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,6 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (backButton) {
         backButton.addEventListener('click', handleBackClick);
     }
+
+    // Add sorting functionality to buttons in each column
+    document.querySelector('#song-sort-button').addEventListener('click', () => sortSongs('song'));
+    document.querySelector('#album-sort-button').addEventListener('click', () => sortSongs('album'));
+    document.querySelector('#year-sort-button').addEventListener('click', () => sortSongs('year'));
+    document.querySelector('#duration-sort-button').addEventListener('click', () => sortSongs('duration'));
 });
 
 function displayArtists() {
@@ -72,106 +85,122 @@ function displayArtists() {
 function handleNextClick() {
     console.log("Next button clicked");
 
-    // Move to the next set of artists
     currentArtistIndex += artistsPerPage;
 
-    // If the index exceeds the available artists, wrap around to the start
     if (currentArtistIndex >= window.artists.length) {
-        currentArtistIndex = 0;  // Reset back to the first artist
+        currentArtistIndex = 0;  
     }
 
-    // Display the new set of artists
     displayArtists();
 }
 
 function handleBackClick() {
     console.log("Back button clicked");
 
-    // Move to the previous set of artists
     currentArtistIndex -= artistsPerPage;
 
-    // If the index goes below 0, wrap around to the last set of artists
     if (currentArtistIndex < 0) {
-        currentArtistIndex = window.artists.length - artistsPerPage;  // Go to the last set
+        currentArtistIndex = window.artists.length - artistsPerPage; 
         if (currentArtistIndex < 0) {
-            currentArtistIndex = 0;  // Ensure it doesn't go below zero if there are less than artistsPerPage artists
+            currentArtistIndex = 0;  
         }
     }
 
-    // Display the new set of artists
     displayArtists();
 }
 
 function displaySongs(artistId) {
-    console.log({ artistId }); // log the ID artist to the function
+    console.log({ artistId });
 
-    // find algorithm
     const artist = window.artists.find(a => a.artistId === artistId);
-    console.log({ selectArtist: artist }); // log the artist to the function
+    console.log({ selectArtist: artist });
 
-    const selectArtist = document.querySelector('#select-artist'); // find element of selected artist in DOM
+    const selectArtist = document.querySelector('#select-artist');
     selectArtist.textContent = artist.name;
 
-    const socialLink = document.querySelector('#socialLink'); // find element of social link in DOM
+    const socialLink = document.querySelector('#socialLink');
     socialLink.innerHTML = '';
 
-    console.log({ socialLink: artist.urls }); // log the URL to the function
-
     artist.urls.forEach(link => {
-        const anchorElement = document.createElement('a');  // create new DOM elements
-        anchorElement.href = link.url; // set the URL
-        anchorElement.target = "_blank"; // open link in new tab
- 
+        const anchorElement = document.createElement('a');
+        anchorElement.href = link.url;
+        anchorElement.target = "_blank";
+
         const logoImage = document.createElement('img');
         logoImage.src = link.logo;
         logoImage.alt = link.name;
         logoImage.style.width = "30px";
         logoImage.style.height = "30px";
 
-
-        anchorElement.appendChild(logoImage); // append the logoImage to anchorElement
-        socialLink.appendChild(anchorElement); // append the anchorElement to the socialLink
-        socialLink.appendChild(document.createTextNode('   ')); // | to space between 2 links for beautiful
+        anchorElement.appendChild(logoImage);
+        socialLink.appendChild(anchorElement);
+        socialLink.appendChild(document.createTextNode(' '));
     });
 
-    const tableBody = document.querySelector('#songs'); // find element of songs in DOM
-    tableBody.innerHTML = ''; 
+    let artistSongs = window.songs.filter(song => song.artistId === artistId && !song.explicit);
+    console.log({ filterSong: artistSongs });
 
-    const artistSong = window.songs.filter(song => song.artistId === artistId && !song.explicit);
+    const tableBody = document.querySelector('#songs');
+    tableBody.innerHTML = '';
 
-    console.log({ filterSong: artistSong }); // log the filter of list song to the function
+    artistSongs.forEach(song => {
+        createSongRow(song, tableBody);
+    });
+}
 
-    artistSong.forEach(song => {
-        console.log({ dataSong: song }); // log the data song to the function
-        const row = document.createElement('tr'); // create new DOM elements
-        row.addEventListener('click', () => { 
-            console.log({ song });
-        });
+function createSongRow(song, tableBody) {
+    const row = document.createElement('tr');
+    row.addEventListener('click', () => {
+        console.log({ song });
+    });
 
-        const titleCell = document.createElement('td'); // create new DOM elements
-        const titleLink = document.createElement('a'); // create new DOM elements
-        titleLink.href = song.url; // set the URL
-        titleLink.target = "_blank"; // open link in new tab
-        titleLink.textContent = song.title; // set the text link
-        titleCell.appendChild(titleLink); // append the titleLink (<a>)to titleCell (<td>)
+    const titleCell = document.createElement('td');
+    const titleLink = document.createElement('a');
+    titleLink.href = song.url;
+    titleLink.target = "_blank";
+    titleLink.textContent = song.title;
+    titleCell.appendChild(titleLink);
 
-        const albumCell = document.createElement('td'); // create new DOM elements
-        albumCell.textContent = song.album;
+    const albumCell = document.createElement('td');
+    albumCell.textContent = song.album;
 
-        const yearCell = document.createElement('td'); // create new DOM elements
-        yearCell.textContent = song.year; 
+    const yearCell = document.createElement('td');
+    yearCell.textContent = song.year;
 
-        const durationCell = document.createElement('td'); // create new DOM elements
-        const mm = Math.floor(song.duration / 60); 
-        const ss = song.duration % 60 < 10 ? `0${song.duration % 60}` : song.duration % 60;
-        durationCell.textContent = `${mm}:${ss}`; 
+    const durationCell = document.createElement('td');
+    const mm = Math.floor(song.duration / 60);
+    const ss = song.duration % 60 < 10 ? `0${song.duration % 60}` : song.duration % 60;
+    durationCell.textContent = `${mm}:${ss}`;
 
-        // append respectively each cell to row
-        row.appendChild(titleCell);
-        row.appendChild(albumCell);
-        row.appendChild(yearCell);
-        row.appendChild(durationCell);
+    row.appendChild(titleCell);
+    row.appendChild(albumCell);
+    row.appendChild(yearCell);
+    row.appendChild(durationCell);
 
-        tableBody.appendChild(row);
+    tableBody.appendChild(row);
+}
+
+function sortSongs(column) {
+    sortState[column] = sortState[column] === 'asc' ? 'desc' : 'asc';
+
+    let artistId = window.artists[currentArtistIndex].artistId;
+    let artistSongs = window.songs.filter(song => song.artistId === artistId && !song.explicit);
+
+    artistSongs.sort((a, b) => {
+        if (column === 'song') {
+            return sortState[column] === 'asc' ? a.title.localeCompare(b.title) : b.title.localeCompare(a.title);
+        } else if (column === 'album') {
+            return sortState[column] === 'asc' ? a.album.localeCompare(b.album) : b.album.localeCompare(a.album);
+        } else if (column === 'year') {
+            return sortState[column] === 'asc' ? a.year - b.year : b.year - a.year;
+        } else if (column === 'duration') {
+            return sortState[column] === 'asc' ? a.duration - b.duration : b.duration - a.duration;
+        }
+    });
+
+    const tableBody = document.querySelector('#songs');
+    tableBody.innerHTML = '';
+    artistSongs.forEach(song => {
+        createSongRow(song, tableBody);
     });
 }
