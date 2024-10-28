@@ -1,13 +1,11 @@
 // All of our data is available on the global `window` object.
-// Create local variables to work with it in this file.
 const { artists, songs } = window;
 
-// For debugging, display all of our data in the console. You can remove this later.
 console.log({ artists, songs }, "App Data");
 
-// Pagination variables
 let currentArtistIndex = 0;  
 const artistsPerPage = 8; 
+let currentArtistId = null;  // Track the currently selected artist ID
 
 let sortState = {
     song: 'asc', 
@@ -16,28 +14,23 @@ let sortState = {
     duration: 'asc'
 };
 
-// event handler to run when the page is loaded
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("Loading...Wait a minute!"); // log the loading when the page is loading
-
-    displayArtists();  // Display initial set of artists
+    displayArtists();  
     if (window.artists.length > 0) {
         displaySongs(window.artists[0].artistId);
     }
 
-    // Add the event listener for the next button
     const nextButton = document.querySelector('#nextButton');
     if (nextButton) {
         nextButton.addEventListener('click', handleNextClick);
     }
 
-    // Add the event listener for the back button
     const backButton = document.querySelector('#backButton');
     if (backButton) {
         backButton.addEventListener('click', handleBackClick);
     }
 
-    // Add sorting functionality to buttons in each column
+    // Add sorting event listeners to each column button
     document.querySelector('#song-sort-button').addEventListener('click', () => sortSongs('song'));
     document.querySelector('#album-sort-button').addEventListener('click', () => sortSongs('album'));
     document.querySelector('#year-sort-button').addEventListener('click', () => sortSongs('year'));
@@ -45,46 +38,38 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function displayArtists() {
-    const menu = document.querySelector('#menu'); // find element of menu in DOM
-    menu.innerHTML = '';  // Clear existing artists
-
-    console.log("Generating the artist buttons...Wait a minute!"); // log the process of generating button
+    const menu = document.querySelector('#menu');
+    menu.innerHTML = '';  
 
     const artistsToShow = window.artists.slice(currentArtistIndex, currentArtistIndex + artistsPerPage);
 
     artistsToShow.forEach(artist => {
-        const button = document.createElement('button'); // create new DOM elements
-        button.classList.add('artist-button'); // add the artist button for BONUS
+        const button = document.createElement('button');
+        button.classList.add('artist-button');
 
         const artistImage = document.createElement('img');
-        artistImage.src = artist.image; // use the URL image
-        artistImage.alt = artist.name; // add alternative text
-        artistImage.classList.add('artist=image');
+        artistImage.src = artist.image;
+        artistImage.alt = artist.name;
+        artistImage.classList.add('artist-image');
 
-        // set the styles for the image artist for BONUS
-        artistImage.style.width = '150px';  // set width 
-        artistImage.style.height = '150px'; // set height 
-        artistImage.style.objectFit = 'cover'; // keep the image normal
-        artistImage.style.borderRadius = '50px'; // add rounded corner for beautiful
-        artistImage.style.border = '5px solid #555'; // a thin border around picture for beautiful
-        artistImage.style.margin = '0 auto'; // align center 
+        artistImage.style.width = '150px';
+        artistImage.style.height = '150px';
+        artistImage.style.objectFit = 'cover';
+        artistImage.style.borderRadius = '50px';
+        artistImage.style.border = '5px solid #555';
+        artistImage.style.margin = '0 auto';
 
         button.appendChild(artistImage);
 
         button.addEventListener('click', () => {
-            console.log({ clickArtist: artist }); // log the artist clicked to the function
             displaySongs(artist.artistId);
         });
 
-        menu.appendChild(button); // append button to menu
+        menu.appendChild(button);
     });
-
-    console.log({ totalOfArtists: window.artists.length }); // log the total of artist to the function
 }
 
 function handleNextClick() {
-    console.log("Next button clicked");
-
     currentArtistIndex += artistsPerPage;
 
     if (currentArtistIndex >= window.artists.length) {
@@ -95,8 +80,6 @@ function handleNextClick() {
 }
 
 function handleBackClick() {
-    console.log("Back button clicked");
-
     currentArtistIndex -= artistsPerPage;
 
     if (currentArtistIndex < 0) {
@@ -110,11 +93,8 @@ function handleBackClick() {
 }
 
 function displaySongs(artistId) {
-    console.log({ artistId });
-
+    currentArtistId = artistId;  // Set the currently selected artist ID
     const artist = window.artists.find(a => a.artistId === artistId);
-    console.log({ selectArtist: artist });
-
     const selectArtist = document.querySelector('#select-artist');
     selectArtist.textContent = artist.name;
 
@@ -138,8 +118,6 @@ function displaySongs(artistId) {
     });
 
     let artistSongs = window.songs.filter(song => song.artistId === artistId && !song.explicit);
-    console.log({ filterSong: artistSongs });
-
     const tableBody = document.querySelector('#songs');
     tableBody.innerHTML = '';
 
@@ -183,8 +161,7 @@ function createSongRow(song, tableBody) {
 function sortSongs(column) {
     sortState[column] = sortState[column] === 'asc' ? 'desc' : 'asc';
 
-    let artistId = window.artists[currentArtistIndex].artistId;
-    let artistSongs = window.songs.filter(song => song.artistId === artistId && !song.explicit);
+    let artistSongs = window.songs.filter(song => song.artistId === currentArtistId && !song.explicit);
 
     artistSongs.sort((a, b) => {
         if (column === 'song') {
