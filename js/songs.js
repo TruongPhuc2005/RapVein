@@ -84,7 +84,7 @@ window.songs = [
     year: "2023",
     duration: 203,
     url: "https://open.spotify.com/track/100fbGocyqbBPQkTDchi2g?si=256194b8e0a74418",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-109",
@@ -174,7 +174,7 @@ window.songs = [
     year: "2023",
     duration: 248,
     url: "https://open.spotify.com/track/2HALQBSAvpw1oCzL5QsrT2?si=90b4cb3e45374587",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-118",
@@ -246,7 +246,7 @@ window.songs = [
     year: "2002",
     duration: 326,
     url: "https://open.spotify.com/track/5Z01UMMf7V1o0MzF86s6WJ?si=9d7bd59bb4aa45cd",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-205",
@@ -286,7 +286,7 @@ window.songs = [
     year: "2020",
     duration: 210,
     url: "https://open.spotify.com/track/7FIWs0pqAYbP91WWM0vlTQ?si=afa43feb39dd43c9",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-209",
@@ -346,7 +346,7 @@ window.songs = [
     year: "1999",
     duration: 268,
     url: "https://open.spotify.com/track/0Fv6CfegUbD5Egs0dj8CVB?si=686ea307487a492e",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-215",
@@ -356,7 +356,7 @@ window.songs = [
     year: "2018",
     duration: 253,
     url: "https://open.spotify.com/track/1jo3TwNGCXfNdB5uba3ZVv?si=aeb05f6916ee443a",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-216",
@@ -418,7 +418,7 @@ window.songs = [
     year: "2024",
     duration: 107,
     url: "https://open.spotify.com/track/1mTHqHDmUHhAKmO9mRur4z?si=53fa273095574d28",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-302",
@@ -518,7 +518,7 @@ window.songs = [
     year: "2013",
     duration: 185,
     url: "https://open.spotify.com/track/1sFstGV1Z3Aw5TDFCiT7vK?si=05bca668c21c4913",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-312",
@@ -538,7 +538,7 @@ window.songs = [
     year: "2021",
     duration: 212,
     url: "https://open.spotify.com/track/5u1n1kITHCxxp8twBcZxWy?si=da79bfe8205d4f66",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-314",
@@ -588,7 +588,7 @@ window.songs = [
     year: "2024",
     duration: 122,
     url: "https://open.spotify.com/track/17hgE2h9PhLC6RJuFm2BEQ?si=c382b7dde46c4c13",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-319",
@@ -738,7 +738,7 @@ window.songs = [
     year: "2018",
     duration: 217,
     url: "https://open.spotify.com/track/2G7V7zsVDxg1yRsu7Ew9RJ?si=2c032ef3b64f46cb",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-413",
@@ -788,7 +788,7 @@ window.songs = [
     year: "2022",
     duration: 239,
     url: "https://open.spotify.com/track/1bDbXMyjaUIooNwFE9wn0N?si=7ef64a05e2214bf0",
-    explicit: true
+    explicit: false
   },
   {
     songId: "SID-418",
