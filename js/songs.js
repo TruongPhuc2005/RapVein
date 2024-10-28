@@ -1139,5 +1139,115 @@ window.songs = [
     duration: 255,
     url: "https://open.spotify.com/track/5Gt9bxniM1SxN61yRzRhXL?si=b79f3cb9dc274f3b",
     explicit: false   
+  },
+  {
+    songId: "SID-612",
+    artistId: "AID-6666",
+    title: "m.A.A.d city",
+    album: "Good Kid, M.A.A.D City",
+    year: "2012",
+    duration: 350,
+    url: "https://open.spotify.com/track/2cDCojn6uIBM6A5xTAbl3H?si=04cecb6888f44d7b",
+    explicit: false   
+  },
+  {
+    songId: "SID-613",
+    artistId: "AID-6666",
+    title: "Bitch, Don't Kill My Vibe",
+    album: "Good Kid, M.A.A.D City",
+    year: "2012",
+    duration: 310,
+    url: "https://open.spotify.com/track/4Pwjz3DfvfQWV0rO2V8jyh?si=ebc7020388824773",
+    explicit: false
+  },
+  {
+    songId: "SID-614",
+    artistId: "AID-6666",
+    title: "Alright",
+    album: "To Pimp a Butterfly",
+    year: "2015",
+    duration: 219,
+    url: "https://open.spotify.com/track/3iVcZ5G6tvkXZkZKlMpIUs?si=58cbcd58e6b14796",
+    explicit: false
+  },
+  {
+    songId: "SID-615",
+    artistId: "AID-6666",
+    title: "meet the grahams",
+    album: "meet the grahams",
+    year: "2024",
+    duration: 392,
+    url: "https://open.spotify.com/track/4S8PxReB1UiDR2F5x1lyIR?si=1792555f2da8458a",
+    explicit: false
+  },
+  {
+    songId: "SID-616",
+    artistId: "AID-6666",
+    title: "Count Me Out",
+    album: "Mr. Morale & the Big Steppers",
+    year: "2022",
+    duration: 283,
+    url: "https://open.spotify.com/track/6BU1RZexmvJcBjgagVVt3M?si=40132a168bbf4e8d",
+    explicit: false
+  },
+  {
+    songId: "SID-617",
+    artistId: "AID-6666",
+    title: "family ties",
+    album: "The Melodic Blue",
+    year: "2021",
+    duration: 252,
+    url: "https://open.spotify.com/track/7Bpx2vsWfQFBACRz4h3IqH?si=2f1694c1b8c9426f",
+    explicit: false
+  },
+  {
+    songId: "SID-618",
+    artistId: "AID-6666",
+    title: "Love.",
+    album: "DAMN.",
+    year: "2017",
+    duration: 213,
+    url: "https://open.spotify.com/track/6PGoSes0D9eUDeeAafB2As?si=63e474b9758d44ed",
+    explicit: false
+  },
+  {
+    songId: "SID-619",
+    artistId: "AID-6666",
+    title: "DUCKWORTH.",
+    album: "DAMN.",
+    year: "2017",
+    duration: 248,
+    url: "https://open.spotify.com/track/0y9uTzK9cNKSAEHnpeRG8C?si=6a0e5f4273b24566",
+    explicit: false
+  },
+  {
+    songId: "SID-620",
+    artistId: "AID-6666",
+    title: "N95",
+    album: "Mr. Morale & the Big Steppers",
+    year: "2022",
+    duration: 195,
+    url: "https://open.spotify.com/track/0fX4oNGBWO3dSGUZcVdVV2?si=eb2b2beaefe14867",
+    explicit: false
+  },
+  {
+    songId: "SID-701",
+    artistId: "AID-7777",
+    title: "Annihilate",
+    album: "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+    year: "2023",
+    duration: 231,
+    url: "https://open.spotify.com/track/39MK3d3fonIP8Mz9oHCTBB?si=79eaf99b31644a76",
+    explicit: false
+  },
+  {
+    songId: "SID-702",
+    artistId: "AID-7777",
+    title: "Annihilate",
+    album: "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
+    year: "2023",
+    duration: 231,
+    url: "https://open.spotify.com/track/39MK3d3fonIP8Mz9oHCTBB?si=79eaf99b31644a76",
+    explicit: false
   }
 ];
