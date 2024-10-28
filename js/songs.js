@@ -1243,11 +1243,61 @@ window.songs = [
   {
     songId: "SID-702",
     artistId: "AID-7777",
-    title: "Annihilate",
-    album: "METRO BOOMIN PRESENTS SPIDER-MAN: ACROSS THE SPIDER-VERSE (SOUNDTRACK FROM AND INSPIRED BY THE MOTION PICTURE / DELUXE EDITION)",
-    year: "2023",
-    duration: 231,
-    url: "https://open.spotify.com/track/39MK3d3fonIP8Mz9oHCTBB?si=79eaf99b31644a76",
+    title: "Love Me",
+    album: "I Am Not a Human Being II",
+    year: "2013",
+    duration: 255,
+    url: "https://open.spotify.com/track/2XHzzp1j4IfTNp1FTn7YFg?si=c72f18e12e374717",
+    explicit: false
+  },
+  {
+    songId: "SID-703",
+    artistId: "AID-7777",
+    title: "Lollipop",
+    album: "Tha Carter III",
+    year: "2008",
+    duration: 299,
+    url: "https://open.spotify.com/track/1pm7lQGl6mvKWDxesZTVFp?si=3454cbcdfab74bf7",
+    explicit: false
+  },
+  {
+    songId: "SID-704",
+    artistId: "AID-7777",
+    title: "Sucker for Pain",
+    album: "Suicide Squad: The Album",
+    year: "2016",
+    duration: 243,
+    url: "https://open.spotify.com/track/4dASQiO1Eoo3RJvt74FtXB?si=d01c3c75a28c446c",
+    explicit: false
+  },
+  {
+    songId: "SID-705",
+    artistId: "AID-7777",
+    title: "Mirror",
+    album: "Tha Carter IV",
+    year: "2011",
+    duration: 228,
+    url: "https://open.spotify.com/track/5hUYsaOyMY32yjRXeuQwGj?si=9ad304dad5784208",
+    explicit: false
+  },
+  {
+    songId: "SID-706",
+    artistId: "AID-7777",
+    title: "Fireman",
+    album: "Tha Carter II",
+    year: "2005",
+    duration: 263,
+    url: "https://open.spotify.com/track/0aq7ohTG6VDYQvsnAYtA5e?si=8075bd42d86949a6",
+    explicit: false
+  },
+  {
+    songId: "SID-707",
+    artistId: "AID-7777",
+    title: "6 Foot 7 Foot",
+    album: "Tha Carter IV",
+    year: "2011",
+    duration: 263,
+    url: "https://open.spotify.com/track/0aq7ohTG6VDYQvsnAYtA5e?si=8075bd42d86949a6",
     explicit: false
   }
 ];
