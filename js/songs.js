@@ -1299,5 +1299,56 @@ window.songs = [
     duration: 263,
     url: "https://open.spotify.com/track/0aq7ohTG6VDYQvsnAYtA5e?si=8075bd42d86949a6",
     explicit: false
+  },
+  {
+    songId: "SID-708",
+    artistId: "AID-7777",
+    title: "Go DJ",
+    album: "Tha Block Is Hot",
+    year: "1999",
+    duration: 285,
+    url: "https://open.spotify.com/track/3BwBEZ21OM2URqlJxogDbF?si=64425952cf8d40a7",
+    explicit: false
+  },
+  {
+    songId: "SID-709",
+    artistId: "AID-7777",
+    title: "Mrs. Officer",
+    album: "Tha Carter III",
+    year: "2008",
+    duration: 286,
+    url: "https://open.spotify.com/track/0EHR9OObFtjlhQB8wSt1m7?si=e61c602657ca4def",
+    explicit: false
+  },
+  {
+    songId: "SID-710",
+    artistId: "AID-7777",
+    title: "Let It All Work Out",
+    album: "Tha Carter III",
+    year: "2018",
+    duration: 316,
+    url: "https://open.spotify.com/track/3BUWNzPWz2mDbptZmGEXpB?si=c05ec9c0215b4c2e",
+    explicit: false
+  },
+  {
+    songId: "SID-711",
+    artistId: "AID-7777",
+    title: "How to Love",
+    album: "Tha Carter IV",
+    year: "2011",
+    duration: 240,
+    url: "https://open.spotify.com/track/4c5Cd6pkg7qqzSAXjsBapX?si=9a8f06b885b14b43",
+    explicit: false
+  },
+  {
+    songId: "SID-711",
+    artistId: "AID-7777",
+    title: "How to Love",
+    album: "Tha Carter IV",
+    year: "2011",
+    duration: 240,
+    url: "https://open.spotify.com/track/4c5Cd6pkg7qqzSAXjsBapX?si=9a8f06b885b14b43",
+    explicit: false
   }
+
 ];
